@@ -1,5 +1,4 @@
-# Reloads the "browser" when it detects changes to the byte size of a user-supplied directory.
-# Because configuring front-end build tools kinda sucks.
+# Reloads the "browser" when it detects changes to the byte size of a user-supplied directory
 
 import os
 import time
