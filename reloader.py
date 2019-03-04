@@ -14,10 +14,8 @@ def main():
     driver.get(url)
     while True:
         hash1 = dirhash(dir_path, "md5")
-        print(hash1)
         time.sleep(2)
         hash2 = dirhash(dir_path, "md5")
-        print(hash2)
         hashes_are_different = compare(hash1, hash2)
         if hashes_are_different:
             driver.refresh()
