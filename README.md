@@ -3,6 +3,9 @@ Reloader is a simple tool for live reloading during development.  It works by po
 
 # How to use:
 1) download the repository to your local machine
+3) install the following python packages:
+    - selenium
+    - checksumdir
 2) grant execute permissions on the following files inside of /reloader:
     - geckodriver.exe
     - chromedriver.exe
