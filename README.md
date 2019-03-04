@@ -1,5 +1,5 @@
 # reloader
-Reloader is a simple tool for live reloading during development.  It works by polling a user-supplied directory every 2 seconds, generating an md5 hash of the directory, and comparing the checksum with the value that it calculated 2 seconds prior.  If the checksums are different, the selenium driver reloads the browser window for you.
+Don't want to go through the trouble of configuring build tools?  Reloader is a simple live reloading solution.  It works by polling a user-supplied directory every 2 seconds, generating an md5 hash of the directory, and comparing the checksum with the value that it calculated 2 seconds prior.  If the checksums are different, the selenium driver reloads the browser window for you.
 
 # How to use:
 1) download the repository to your local machine
