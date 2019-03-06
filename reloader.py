@@ -1,4 +1,4 @@
-# this program reloads the browser when it detects changes to the byte size of a user-supplied directory
+# this program reloads the browser when it detects changes to the checksum of a user-supplied directory
 
 import os
 import time
